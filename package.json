@@ -1,0 +1,21 @@
+{
+  "name": "json-schema-form",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "ajv": "^6.0.1",
+    "lodash": "^4.17.4"
+  },
+  "main": "bundles/json-schema-form.umd.js",
+  "module": "fesm5/json-schema-form.js",
+  "es2015": "fesm2015/json-schema-form.js",
+  "esm5": "esm5/json-schema-form.js",
+  "esm2015": "esm2015/json-schema-form.js",
+  "fesm5": "fesm5/json-schema-form.js",
+  "fesm2015": "fesm2015/json-schema-form.js",
+  "typings": "json-schema-form.d.ts",
+  "metadata": "json-schema-form.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
