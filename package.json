@@ -33,7 +33,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --aot=false --build-optimizer=false",
+    "build": "ng build --prod --base-href ./ --aot=false --build-optimizer=false",
     "buildlib": "ng build json-schema-form --prod",
     "postbuildlib": "cp  README.md LICENSE  dist/json-schema-form/",
     "test": "ng test",
